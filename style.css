@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 550px;
+    margin: 40px auto;
+    padding: 16px;
+    background-image: url("images/cloud.jpg");
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.55;
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 60px 10px;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.55;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.summary {
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+.location {
+    font-size: 18px;
+    line-height: 1.25;
+    font-weight: 400;
+}
